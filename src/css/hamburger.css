@@ -1,0 +1,15 @@
+.hamburger{
+    height: 30px;
+    justify-content: end;
+    margin-right: 15px;
+    z-index: initial;
+}
+.item{
+    width: 30px;
+    height: 0.25rem;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+

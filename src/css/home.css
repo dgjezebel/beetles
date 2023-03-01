@@ -1,0 +1,37 @@
+.homeDiv{
+    margin-top: 10vh;
+}
+.textDiv{
+    max-width: 600px;
+    margin: 5vh auto;
+}
+.textDiv p{
+    font-size: 20px;
+    text-align: center;
+}
+.bottomDiv{
+    background-color: rgb(198, 237, 255);
+    height: 50vh;
+
+}
+.pagebutton{
+    width: 300px;
+    height: 75px;
+    font-size: 40px;
+    background-color: #fff;
+}
+@media all and (max-width: 700px) {
+    .homeDiv{
+        margin-top: 0;
+    }
+    .pagebutton{
+        width: 200px;
+        height: 75px;
+        font-size: 30px;
+        background-color: #fff;
+    }
+    .textDiv{
+        max-width: 600px;
+
+    }
+}

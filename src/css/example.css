@@ -1,0 +1,13 @@
+.each-slide-effect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+  }
+.scrollBox{
+  margin: 0 40px;
+}
+@media all and (max-width: 700px) {
+
+
+}
