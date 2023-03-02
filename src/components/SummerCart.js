@@ -1,12 +1,12 @@
 import React from 'react';
-import '../css/foodTruck.css'
+import '../css/foodcart.css'
 
-export default class SummerTruck extends React.Component {
+export default class SummerCart extends React.Component {
     render(){
         return(
             <div className='foodtruckBackground'>
                 <div className='foodtruckdiv'>
-                <h1>SUMMER FOOD TRUCK MENU</h1>
+                <h1>SUMMER FOOD CART MENU</h1>
                 <br/>
                 <h2>BURGERS</h2>
                 <p>5.5 oz Cheeseburger $6 / Double Cheeseburger $11</p>

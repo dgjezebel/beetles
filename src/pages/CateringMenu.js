@@ -77,7 +77,7 @@ export default class MenuInfo extends Component{
                 <p>Vegetarian options available upon request</p>
                 <p>Menu prices subject to change</p>
                 <br/>
-        </div
-        ></div>
-    )}
-}
+            </div>
+        </div>
+    )};
+};

@@ -1,6 +1,6 @@
 import React from "react";
-import SummerTruck from '../components/SummerTruck'
+import SummerCart from '../components/SummerCart'
 export default function FoodCartMenu(){
     return(
-        <><SummerTruck/></>)
+        <><SummerCart/></>)
 }

@@ -1,7 +1,7 @@
 import React from 'react';
-import '../css/foodTruck.css'
+import '../css/foodcart.css'
 
-export default class WinterTruck extends React.Component {
+export default class WinterCart extends React.Component {
     render(){
         return(
             <div className='foodtruckBackground'>

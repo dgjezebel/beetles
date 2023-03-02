@@ -97,7 +97,7 @@ export default class Header extends Component {
                         {this.state.menusOpen? (
                             <li><Link className='linkbutton color' to='/cateringmenu' onClick={this.closeMenu}>Catering Menu</Link></li>):('')}
                             {this.state.menusOpen? (
-                            <li><Link className='linkbutton color' to='/foodtruckmenu' onClick={this.closeMenu}>Food Truck Menu</Link></li>):('')}
+                            <li><Link className='linkbutton color' to='/foodcartmenu' onClick={this.closeMenu}>Food Truck Menu</Link></li>):('')}
                         <li><Link className='linkbutton' to='/gallery' onClick={this.closeMenu}>Gallery</Link></li>
                         <li><Link className='linkbutton' to='/specials' onClick={this.closeMenu}>Specials</Link></li>
                         <li><Link className='linkbutton' to='/about' onClick={this.closeMenu}>About</Link></li>
