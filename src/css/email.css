@@ -1,0 +1,122 @@
+.height{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(35, 160, 255));
+    min-height: 100vh;
+    max-width: 100%;
+}
+.contactGreeting{
+    margin: 20px;
+}
+.form{
+    background-color: #fff;
+    margin: auto;
+    padding: 30px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    max-width: 480px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #8e8e8e;
+}
+.emailphonediv{
+    display: flex;
+    justify-content: center;
+    
+}
+.namediv{
+    display: flex;
+    flex-direction: column;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 40px white inset !important;
+}
+.nameinputs{
+    border: none;
+    border-bottom: 2px solid rgb(217, 217, 217);
+    background-color: #fff;
+    max-width: 200px;
+    height: 30px;
+    margin: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 5px;
+}
+.inputs{
+    border: none;
+    border-bottom: 2px solid rgb(217, 217, 217);
+    max-width: 440px;
+    height: 30px;
+    margin: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 5px;
+}
+.textarea{
+    resize: none;
+    border: 2px solid rgb(217, 217, 217);
+    width: 440px;
+    height: 200px;
+    margin-top: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 5px;
+}
+.inputbutton{
+    width: 444px;
+    height: 40px;
+    margin-top: 10px;
+    font-family: inherit;
+    color: #fff;
+    background-color: rgb(0, 145, 255);
+    border: rgb(217, 217, 217);
+    box-shadow: 3px 3px 6px #8e8e8e;
+}
+@media all and (max-width: 700px) {
+    .form{
+        max-width: 300px;
+    }
+    .nameinputs{
+    width: 125px;
+    font-size: 15px;
+    }
+    .inputs{
+        max-width:275px;
+        font-size: 15px;
+    }
+    .textarea{
+        width: 275px;
+        font-size: 15px;
+    }
+    .inputbutton{
+        width:275px;
+    }
+}
+@media all and (max-width:400px){
+    .form{
+        max-width: 300px;
+    }
+    .nameinputs{
+    max-width: 100px;
+    }
+    .inputs{
+        max-width:250px;
+    }
+    .textarea{
+        max-width: 175px;
+    }
+    .inputbutton{
+        width:175px;
+    }
+}
+@media all and (max-width:300px){
+    .nameinputs{
+        max-width: 250px;
+        }
+        .emailphonediv{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+}

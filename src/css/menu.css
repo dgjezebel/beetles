@@ -1,0 +1,54 @@
+.menuBackground{
+    background-image: linear-gradient(to top,#84cef4, #ffffff);
+    padding: 20px;
+    padding-bottom: 40px;
+    min-height: 100vh;
+}
+
+.menudiv{
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px 0px rgb(171, 171, 171);
+}
+p{
+    text-align: center;
+    margin: auto;
+    font-size: 1.2em;
+}
+h1{
+    padding: 20px;
+}
+h3{
+    text-align: center;
+}
+.menudiv h2{
+    margin: 0;
+}
+.menu{
+font-size: 1.2em;
+list-style-type: none;
+-webkit-columns: 2;
+-moz-columns: 2;
+columns: 2;
+list-style-position: inside;
+padding-left: 0;
+}
+.menuLi{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+@media screen and (max-width: 700px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        list-style-position: inside;
+        }
+        .menuBackground{
+            background-image: #F4F3F1;
+        }
+        
+}

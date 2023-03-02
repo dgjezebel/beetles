@@ -60,7 +60,7 @@ export default class Header extends Component {
       
     
       updatePredicate = () => {
-        this.setState({ isDesktop: window.innerWidth < 700 });
+        this.setState({ isDesktop: window.innerWidth < 800 });
       }
     
 
@@ -90,14 +90,14 @@ export default class Header extends Component {
         return (<>
             {isDesktop ? (
                 <div className='header'>
-                <Link to=''><img className='image'  src={headerimage} alt='ab catering' /></Link>
+                <Link to=''><img className='headerimage' src={headerimage} alt='ab catering' /></Link>
                 <div className='navigation'  >
                     <ul style={{display:this.state.display}}>
                         <li> <Link className='linkbutton' to='' onClick={this.twoMenus}>Menus </Link></li>
                         {this.state.menusOpen? (
-                            <li><Link className='linkbutton color' to='/menu' onClick={this.closeMenu}>Catering Menu</Link></li>):('')}
+                            <li><Link className='linkbutton color' to='/cateringmenu' onClick={this.closeMenu}>Catering Menu</Link></li>):('')}
                             {this.state.menusOpen? (
-                            <li><Link className='linkbutton color' to='/summerfoodtruck' onClick={this.closeMenu}>Food Truck Menu</Link></li>):('')}
+                            <li><Link className='linkbutton color' to='/foodtruckmenu' onClick={this.closeMenu}>Food Truck Menu</Link></li>):('')}
                         <li><Link className='linkbutton' to='/gallery' onClick={this.closeMenu}>Gallery</Link></li>
                         <li><Link className='linkbutton' to='/specials' onClick={this.closeMenu}>Specials</Link></li>
                         <li><Link className='linkbutton' to='/about' onClick={this.closeMenu}>About</Link></li>
@@ -110,23 +110,23 @@ export default class Header extends Component {
             </div>
             ) :(<div className="headerdiv">
             
-                    <button type='button' className='button'><Link to='/'><img src={headerimage}/></Link></button>
+                    <button type="button" className="thisbutton"><Link to='/gallery'>Gallery</Link></button>
                 <div className="container" ref={this.container}>
-                    <button type="button" className="button" onClick={this.handleButtonClick}>
+                    <button type="button" className="thisbutton" onClick={this.handleButtonClick}>
                         Menus
                     </button>
                     {this.state.open && (
                         <div className="dropdown">
                         <ul>
-                            <li><Link>Food Cart Menu</Link></li>
-                            <li><Link>Catering Menu</Link></li>
+                            <li><Link to='/foodcartmenu' onClick={this.handleButtonClick}>Food Cart Menu</Link></li>
+                            <li><Link to='/cateringmenu' onClick={this.handleButtonClick}>Catering Menu</Link></li>
                         </ul>
                     </div>
                     )}
                 </div>
-                <button type="button" className="button">Gallery</button>
-                <button type="button" className="button"><Link to='/about'>About</Link></button>
-                <button type="button" className="button"><Link to='/contact'>Contact</Link></button>
+                    <button type='button' className='thisbutton'><Link to='/'><img className='headerimage' src={headerimage}/></Link></button>
+                <button type="button" className="thisbutton"><Link to='/contact'>Contact</Link></button>
+                <button type="button" className="thisbutton"><Link to='/about'>About</Link></button>
             </div>)}
             </>
         );

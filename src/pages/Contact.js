@@ -8,17 +8,14 @@ export default class Contact extends React.Component {
         <div className='height'>
             <div className='contactDiv'>
                 <div className='contactGreeting'>
-                    <p>Phone number:{' '}<a href="tel:215-792-2197" >(215) 792-2197</a></p>
-                    <p>Email:{' '}<a href="mailto:customerservice@ab-catering.com">customerservice@ab-catering.com</a></p>
+                    <h2>Phone number:{' '}<a href="tel:215-792-2197" >(215) 792-2197</a></h2>
+                    <h2>Email:{' '}<a href="mailto:customerservice@ab-catering.com">customerservice@ab-catering.com</a></h2>
                     <br/>
-                    <p>
-                    Feel free to send 
-                    us any comments or questions and we'll get 
-                    back to you within 24 hours. We look forward to working with you!
-                    </p>
-                </div>
+                    
             
                 <div className='formholder'>
+                </div>
+                
                 <ContactUs />
                 </div>
             </div>
