@@ -9,7 +9,6 @@ export default class Contact extends React.Component {
     render(){
         return(
             <div className='height'>
-                <div className='contactGreeting'>
                     <h2>Phone number:{' '}<a href="tel:215-792-2197" >(215) 792-2197</a></h2>
                     <h2>Email:{' '}<a href="mailto:customerservice@ab-catering.com">customerservice@ab-catering.com</a></h2>
                     <h2>Follow us on Facebook and Instagram </h2>
@@ -18,7 +17,6 @@ export default class Contact extends React.Component {
                     <div className='formholder'>
                     </div>
                     <ContactUs />
-                </div>
             </div>
         )
     }
