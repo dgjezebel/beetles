@@ -2,13 +2,14 @@
     background-image: linear-gradient(rgb(255, 255, 255), rgb(35, 160, 255));
     height: 100vh;
     max-width: 100%;
+    margin-top: 20px;
 }
 
 .form{
     background-color: #fff;
     margin: auto auto 10vh auto;
     padding: 30px;
-    margin-top: 5vh;
+    margin-top: 3vh;
     margin-bottom: 5vh;
     max-width: 480px;
     border-radius: 10px;
@@ -69,6 +70,10 @@ input:-webkit-autofill:active  {
     background-color: rgb(0, 145, 255);
     border: rgb(217, 217, 217);
     box-shadow: 3px 3px 6px #8e8e8e;
+}
+.iconssmall{
+    height: 50px;
+    margin: 20px 10px 0 10px;
 }
 @media all and (max-width: 700px) {
     .form{
