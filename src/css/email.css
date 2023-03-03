@@ -1,14 +1,12 @@
 .height{
     background-image: linear-gradient(rgb(255, 255, 255), rgb(35, 160, 255));
-    min-height: 100vh;
+    height: 100vh;
     max-width: 100%;
 }
-.contactGreeting{
-    margin: 20px;
-}
+
 .form{
     background-color: #fff;
-    margin: auto;
+    margin: auto auto 10vh auto;
     padding: 30px;
     margin-top: 5vh;
     margin-bottom: 5vh;
