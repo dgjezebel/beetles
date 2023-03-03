@@ -13,6 +13,7 @@ export const ContactUs = () => {
   const [user, setUser] = useState('')
   const [phone, setPhone] = useState('')
   const [message, setMessage] = useState('')
+  const [contactmethod, setContactMethod] = useState('')
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -22,6 +23,7 @@ export const ContactUs = () => {
         setLastName('')
         setUser('')
         setPhone('')
+        setContactMethod('')
         setMessage('')
           console.log(result.text);
       }, (error) => {
@@ -70,7 +72,6 @@ export const ContactUs = () => {
         value={user}/>
       <div className='error'></div>
       <input 
-        required 
         className='inputs' 
         type="phone" 
         name="phone" 
@@ -79,6 +80,7 @@ export const ContactUs = () => {
         value={phone}/>
       <div className='error'></div>
       </div>
+    
       <textarea 
         required 
         className='textarea' 
@@ -86,6 +88,18 @@ export const ContactUs = () => {
         placeholder='What can we do for you?*'
         onChange={event => setMessage(event.target.value)}
         value={message}/>
+          <select 
+          required 
+        className='contactmethod'
+        type='contactmethod'
+        name='contactmethod'
+        value={contactmethod}
+        onChange={event => setContactMethod(event.target.value)}>
+        <option value="" disabled selected>Preferred Contact Method*</option>
+        <option value="Phone">Phone Call</option>
+        <option s value="Text">Texting</option>
+        <option value="Email">E-mail</option>
+      </select>
       <div className='inputbox'><input  className='inputbutton'type="submit" value="Send Message" /></div>
     </form>
   );

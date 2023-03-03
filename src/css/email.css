@@ -34,7 +34,7 @@ input:-webkit-autofill:active  {
     border: none;
     border-bottom: 2px solid rgb(217, 217, 217);
     background-color: #fff;
-    max-width: 200px;
+    max-width: 210px;
     height: 30px;
     margin: 10px;
     font-family: inherit;
@@ -62,7 +62,7 @@ input:-webkit-autofill:active  {
     padding: 5px;
 }
 .inputbutton{
-    width: 444px;
+    width: 450px;
     height: 40px;
     margin-top: 10px;
     font-family: inherit;
@@ -75,8 +75,19 @@ input:-webkit-autofill:active  {
     height: 50px;
     margin: 20px 10px 0 10px;
 }
+.contactmethod{
+    height: 40px;
+    width: 450px;
+    font-family: inherit;
+    font-size: 20px;
+    border: 2px solid rgb(217, 217, 217);
+    text-align: center;
+}
 @media all and (max-width: 700px) {
-    .form{
+    
+    .contactmethod{
+        width: 275px;
+    }.form{
         max-width: 300px;
     }
     .nameinputs{
@@ -96,7 +107,10 @@ input:-webkit-autofill:active  {
     }
 }
 @media all and (max-width:400px){
-
+    .contactmethod{
+        max-width: 250px;
+        font-size: 15px;
+    }
     .form{
         max-width: 300px;
     }
@@ -107,10 +121,10 @@ input:-webkit-autofill:active  {
         max-width:250px;
     }
     .textarea{
-        max-width: 175px;
+        max-width: 250px;
     }
     .inputbutton{
-        width:175px;
+        width:250px;
     }
 }
 @media all and (max-width:300px){
