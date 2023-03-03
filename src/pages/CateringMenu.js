@@ -31,28 +31,28 @@ export default class MenuInfo extends Component{
                 <br/>
                 {list(salads)}
             </div>
-            
+            <br/>
             <div>
                 <h2>Entrees</h2>
                 <p>Half pan $45 | Whole pan $85</p>
                 <br/>
                 {list(entrees)}
             </div>
-            
+            <br/>
             <div>
                 <h2>Sides</h2>
                 <p>Half pan $35 | Whole pan  $70</p>
                 <br/>
                 {list(sides)}
             </div>
-           
+           <br/>
             <div>
                 <h2>Big Kids Menu</h2>
                 <p>Half pan $35 | Whole pan $70</p>
                 <br/>
                 {list(kids)}
             </div>
-            
+            <br/>
             <h2>Desserts</h2>
                 <h3>Assorted Cookies</h3>
                 <p>One Dozen  $20 | Two Dozen  $24</p>

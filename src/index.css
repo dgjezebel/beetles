@@ -6,7 +6,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 50%;
+}
 code {
   font-family: 'Be Vietnam Pro', sans-serif;
 }
