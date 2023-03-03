@@ -23,7 +23,7 @@ export default class MenuInfo extends Component{
                 <br/>
                 {list(appetizers)}
             </div>
-            
+            <br/>
             <div>
                 <h2>Salads</h2>
                 <p>Half pan $35 | Whole pan $70</p>
