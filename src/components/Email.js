@@ -46,7 +46,7 @@ export const ContactUs = () => {
         required 
         className='nameinputs' 
         type="text" 
-        name="user_name" 
+        name="first_name" 
         placeholder='First Name*'
         onChange={event => setFirstName(event.target.value)}
         value={firstname}/>
@@ -55,7 +55,7 @@ export const ContactUs = () => {
         required 
         className='nameinputs' 
         type="text" 
-        name="user_name" 
+        name="last_name" 
         placeholder='Last Name*'
         onChange={event => setLastName(event.target.value)}
         value={lastname}/>
@@ -96,7 +96,7 @@ export const ContactUs = () => {
         value={contactmethod}
         onChange={event => setContactMethod(event.target.value)}>
         <option value="" disabled selected>Preferred Contact Method*</option>
-        <option value="Phone">Phone Call</option>
+        <option value="Phone Call">Phone Call</option>
         <option s value="Text">Texting</option>
         <option value="Email">E-mail</option>
       </select>
