@@ -1,16 +1,18 @@
 .height{
     background-image: linear-gradient(rgb(255, 255, 255), rgb(35, 160, 255));
-    height: 100vh;
+    height: 100%;
     max-width: 100%;
     margin-top: 20px;
 }
-
+.contactGreeting{
+    height: 100vh;
+}
 .form{
     background-color: #fff;
-    margin: auto auto 10vh auto;
+    margin: 0 auto 10vh auto;
     padding: 30px;
     margin-top: 3vh;
-    margin-bottom: 5vh;
+    margin-bottom: 5vh!important;
     max-width: 480px;
     border-radius: 10px;
     box-shadow: 3px 3px 6px #8e8e8e;
@@ -76,6 +78,11 @@ input:-webkit-autofill:active  {
     margin: 20px 10px 0 10px;
 }
 @media all and (max-width: 700px) {
+    .height{
+
+        height: 120vh;
+
+    }
     .form{
         max-width: 300px;
     }
@@ -96,6 +103,11 @@ input:-webkit-autofill:active  {
     }
 }
 @media all and (max-width:400px){
+    .height{
+
+        height: 140vh;
+
+    }
     .form{
         max-width: 300px;
     }
