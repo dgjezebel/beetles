@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
 import FoodCartMenu from './pages/FoodCartMenu';
 import CateringMenu from './pages/CateringMenu';
+import SpecialsMenu from './pages/SpecialsMenu';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/gallery' element={<Gallery/>}></Route>
         <Route path='foodcartmenu' element={<FoodCartMenu/>}></Route>
         <Route path='cateringmenu' element={<CateringMenu/>}></Route>
+        <Route path='specials' element={<SpecialsMenu/>}></Route>
       </Routes>
     </div>
   );
