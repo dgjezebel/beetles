@@ -29,6 +29,8 @@
   .dropdown {
     position: absolute;
     text-decoration: underline #b3b3b3;
+    text-underline-offset: 8px;
+    text-align: left;
     top: 100%;
     left: 0;
     width: 200px;
