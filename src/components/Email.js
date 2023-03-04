@@ -3,10 +3,11 @@ import emailjs from '@emailjs/browser';
 import{ init } from '@emailjs/browser';
 import '../css/email.css'
 
-init("user_W7CsbdW7BGSlDGi4rbGca");
+const API_KEY = process.env.REACT_APP_API_KEY
+init(API_KEY);
 
 export const ContactUs = () => {
-
+console.log(API_KEY)
   const form = useRef();
   const [firstname, setFirstName] = useState('')
   const [lastname, setLastName] = useState('')
@@ -17,8 +18,8 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_1psuwpf', 'template_z658s7j', form.current, 'user_W7CsbdW7BGSlDGi4rbGca')
-      .then((result) => {
+    emailjs.sendForm('service_1psuwpf', 'template_z658s7j', form.current, `${API_KEY}`) 
+    .then((result) => {
         setFirstName('')
         setLastName('')
         setUser('')
@@ -88,8 +89,8 @@ export const ContactUs = () => {
         placeholder='What can we do for you?*'
         onChange={event => setMessage(event.target.value)}
         value={message}/>
-          <select 
-          required 
+      <select 
+        required 
         className='contactmethod'
         type='contactmethod'
         name='contactmethod'

@@ -6,7 +6,7 @@ export default function About(){
     
     return(
     <div className='abutdiv'>
-<img className='image' src={image}/>
+<img className='image' alt='ab catering'src={image}/>
         <h1>About Our Company</h1>
         <div className='textdiv'>
         <p>With the world changing to a new normal, we decided to open AB Catering to bring comfort food directly to your table. Our mission 

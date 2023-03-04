@@ -86,7 +86,6 @@ export default class Header extends Component {
     render() {
         const isDesktop = this.state.isDesktop;
         const isOpen = this.state.isOpen;
-        let w = window.innerWidth
         return (<>
             {isDesktop ? (
                 <div className='header'>
@@ -123,7 +122,7 @@ export default class Header extends Component {
                     </div>
                     )}
                 </div>
-                    <button type='button' className='thisbutton'><Link to='/'><img className='headerimage' src={headerimage}/></Link></button>
+                    <button type='button' className='thisbutton'><Link to='/'><img className='headerimage' alt='ab catering' src={headerimage}/></Link></button>
                 <button type="button" className="thisbutton"><Link to='/contact'>Contact</Link></button>
                 <button type="button" className="thisbutton"><Link to='/about'>About</Link></button>
             </div>)}

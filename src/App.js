@@ -7,7 +7,6 @@ import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
 import FoodCartMenu from './pages/FoodCartMenu';
 import CateringMenu from './pages/CateringMenu';
-import Footer from './components/Footer';
 
 function App() {
   return (

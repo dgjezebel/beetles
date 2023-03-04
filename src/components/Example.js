@@ -24,13 +24,6 @@ const divStyle = {
     alignItems: 'center',
     justifyContent: 'center',
     backgroundSize: 'cover',
-    height: '100px'
-    }
-const divStyleTwo = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundSize: 'cover',
     height: '300px'
     }
     const responsiveSettings = [
@@ -71,7 +64,7 @@ export default class Example extends Component{
             <Slide slidesToScroll={1} slidesToShow={3} indicators={false} responsive={responsiveSettings}>
             {images.map((image, index)=> (
             <div key={index}>
-              <div style={{ ...divStyleTwo, 'backgroundImage': `url(${image})`, 'height':`${( w<600)? ('200px'):('300px')}`,'margin':'10px', 'zIndex':'-1'}}>
+              <div style={{ ...divStyle, 'backgroundImage': `url(${image})`, 'height':`${( w<600)? ('200px'):('300px')}`,'margin':'10px', 'zIndex':'-1'}}>
               </div>
             </div>
           ))} 
