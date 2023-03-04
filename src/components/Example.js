@@ -24,7 +24,8 @@ const divStyle = {
     alignItems: 'center',
     justifyContent: 'center',
     backgroundSize: 'cover',
-    height: '300px'
+    height: '300px',
+    border: 'solid 2px'
     }
     const responsiveSettings = [
         {
