@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.284f4643.css",
-    "main.js": "/static/js/main.a2448002.js",
+    "main.js": "/static/js/main.2fed0a6b.js",
     "static/media/image1.png": "/static/media/image1.52b381f38f3870a2b28b.png",
     "static/media/image3.png": "/static/media/image3.7d2f4c0e9bdba6eaa8c2.png",
     "static/media/image22.png": "/static/media/image22.00f3104573b49de76417.png",
@@ -32,17 +32,19 @@
     "static/media/image2.png": "/static/media/image2.aadef66ddcc0ecdb20cf.png",
     "static/media/froot.png": "/static/media/froot.9345d4c29a779f2b506c.png",
     "static/media/image16.png": "/static/media/image16.9345d4c29a779f2b506c.png",
+    "static/media/image28.jpg": "/static/media/image28.bffadf61eb46e7e4e082.jpg",
     "static/media/image8.png": "/static/media/image8.76b87f54c8339e4038aa.png",
     "static/media/image6.png": "/static/media/image6.00c6416bd94962023222.png",
     "static/media/image4.png": "/static/media/image4.c7c8c4495c5b2e0be5f2.png",
     "static/media/taco.png": "/static/media/taco.c7c8c4495c5b2e0be5f2.png",
+    "static/media/image30.jpg": "/static/media/image30.071d602438c54977a648.jpg",
     "static/media/ablogo.png": "/static/media/ablogo.935510376e89a86303a2.png",
     "index.html": "/index.html",
     "main.284f4643.css.map": "/static/css/main.284f4643.css.map",
-    "main.a2448002.js.map": "/static/js/main.a2448002.js.map"
+    "main.2fed0a6b.js.map": "/static/js/main.2fed0a6b.js.map"
   },
   "entrypoints": [
     "static/css/main.284f4643.css",
-    "static/js/main.a2448002.js"
+    "static/js/main.2fed0a6b.js"
   ]
 }

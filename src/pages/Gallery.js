@@ -5,6 +5,9 @@ export default class Gallery extends React.Component {
     render(){
         return(
             <div className='galleryDiv'>
+                <img className='galleryimage' alt='' src={images[29]}/>
+                <img className='galleryimage' alt='' src={images[28]}/>
+                <img className='galleryimage' alt='' src={images[27]}/>
                 <img className='galleryimage' alt='' src={images[22]}/>
                 <img className='galleryimage' alt='' src={images[21]}/>
                 <img className='galleryimage' alt='' src={images[23]}/>
