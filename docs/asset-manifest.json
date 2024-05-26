@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.284f4643.css",
-    "main.js": "/static/js/main.7fba2e6a.js",
+    "main.js": "/static/js/main.65f9d334.js",
     "static/media/image1.png": "/static/media/image1.52b381f38f3870a2b28b.png",
     "static/media/image3.png": "/static/media/image3.7d2f4c0e9bdba6eaa8c2.png",
     "static/media/image35.jpg": "/static/media/image35.5967f134bdabfa62b7a3.jpg",
@@ -18,7 +18,6 @@
     "static/media/image19.png": "/static/media/image19.d8ab7c605c12902bc2d5.png",
     "static/media/image34.jpg": "/static/media/image34.2394199103e1510dae95.jpg",
     "static/media/image26.png": "/static/media/image26.8d0223f87342fd406649.png",
-    "static/media/image23.png": "/static/media/image23.6b47764fbed8d82ed1c9.png",
     "static/media/image15.png": "/static/media/image15.28ddd269d6b6c55db0fc.png",
     "static/media/image31.jpg": "/static/media/image31.1ecbf38413378981e394.jpg",
     "static/media/image9.png": "/static/media/image9.15733aa17edc35759b91.png",
@@ -37,7 +36,6 @@
     "static/media/image2.png": "/static/media/image2.aadef66ddcc0ecdb20cf.png",
     "static/media/froot.png": "/static/media/froot.9345d4c29a779f2b506c.png",
     "static/media/image16.png": "/static/media/image16.9345d4c29a779f2b506c.png",
-    "static/media/image28.jpg": "/static/media/image28.bffadf61eb46e7e4e082.jpg",
     "static/media/image8.png": "/static/media/image8.76b87f54c8339e4038aa.png",
     "static/media/image6.png": "/static/media/image6.00c6416bd94962023222.png",
     "static/media/image4.png": "/static/media/image4.c7c8c4495c5b2e0be5f2.png",
@@ -46,10 +44,10 @@
     "static/media/ablogo.png": "/static/media/ablogo.935510376e89a86303a2.png",
     "index.html": "/index.html",
     "main.284f4643.css.map": "/static/css/main.284f4643.css.map",
-    "main.7fba2e6a.js.map": "/static/js/main.7fba2e6a.js.map"
+    "main.65f9d334.js.map": "/static/js/main.65f9d334.js.map"
   },
   "entrypoints": [
     "static/css/main.284f4643.css",
-    "static/js/main.7fba2e6a.js"
+    "static/js/main.65f9d334.js"
   ]
 }
